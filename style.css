@@ -37,3 +37,44 @@ main {
     margin-top: 20px;
     border-radius: 8px;
 }
+
+
+.ce {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-CV {
+    display: inline-flex; /* pour que le bouton prenne seulement la largeur de son contenu */
+    font-weight: 700;
+    color: black;
+    background: #06b6d4; 
+    border-radius: 12px; /* arrondi du bouton */
+    border: 1px solid rgba(0,0,0,0.2); /* bordure fine et discrète */
+    padding: 8px 16px; /* espace à l'intérieur */
+    text-decoration: none;
+}
+
+.btn-VM {
+    display: inline-flex; /* pour que le bouton prenne seulement la largeur de son contenu */
+    font-weight: 700;
+    color: black;
+    background: #06b6d4; 
+    border-radius: 12px; /* arrondi du bouton */
+    border: 1px solid rgba(0,0,0,0.2); /* bordure fine et discrète */
+    padding: 8px 16px; /* espace à l'intérieur */
+    text-decoration: none;
+}
+
+.btn-RJ45 {
+    display: inline-flex; /* pour que le bouton prenne seulement la largeur de son contenu */
+    font-weight: 700;
+    color: black;
+    background: #06b6d4; 
+    border-radius: 12px; /* arrondi du bouton */
+    border: 1px solid rgba(0,0,0,0.2); /* bordure fine et discrète */
+    padding: 8px 16px; /* espace à l'intérieur */
+    text-decoration: none;
+}

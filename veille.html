@@ -4,6 +4,44 @@
     <meta charset="UTF-8">
     <title>Portfolio BTS SIO SISR - Adam REFFAD</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+      }
+  
+      .block {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+  
+      h2 {
+        margin-bottom: 15px;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      li {
+        margin-bottom: 10px;
+        padding-left: 15px;
+        position: relative;
+      }
+  
+      .certifs {
+        margin-top: 30px;
+        background: #ecf0f1;
+        padding: 15px;
+        border-radius: 10px;
+      }
+
+    </style>
 </head>
 <body>
     <header>
@@ -19,10 +57,19 @@
     </nav>
 
     <main>
-        <h2 align="center">Veille</h2>
-        
+        <div align="center" class="certifs">
+            <h2 align="center">Veille sur le RGPD</h2>
+            <ul>
+              <li> <a class="btn-RJ45" href="le RGPD.pptx" download="RGPD" title="Télécharger le tableau de synthèse">Télécharger le diaporama explicatif</a></li>
+                <h2 align="center">Moyens de renseignements sur l'actualité du RGPD pour ma veille</h2>
+                <a href="https://www.cnil.fr/fr/thematiques/tpe-pme">CNIL</a> <br>
+                <a href="https://gdpr.eu/what-is-gdpr/">Union européenne</a> <br>
+                <a href="https://www.lemagit.fr/">lemagit</a> <br>
+            </ul>
+          </div>
         
        
     </main>
+    <!--<script src="https://rss.bloople.net/?url=https%3A%2F%2Fwww.cnil.fr%2Ffr%2Frss.xml&showtitle=false&type=js"></script>-->
 </body>
 </html>

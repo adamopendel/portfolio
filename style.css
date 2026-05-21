@@ -18,16 +18,6 @@ nav {
     justify-content: center;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-}
-
-nav a:hover {
-    background: #1abc9c;
-}
-
 main {
     max-width: 900px;
     margin: auto;
@@ -77,4 +67,69 @@ main {
     border: 1px solid rgba(0,0,0,0.2); /* bordure fine et discrète */
     padding: 8px 16px; /* espace à l'intérieur */
     text-decoration: none;
+}
+
+
+
+
+
+/* ===== NAVBAR PLUS GROSSE ===== */
+
+nav {
+    background: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 14px;
+    gap: 10px;
+}
+
+/* Liens principaux */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover */
+nav a:hover {
+    background: #1abc9c;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+/* Menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #2c3e50;
+    min-width: 260px;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Liens dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 16px;
+    font-size: 16px;
+}
+
+/* Hover dropdown color */
+.dropdown-content a:hover {
+    background: #1abc9c;
+}
+
+/* Affichage au hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
